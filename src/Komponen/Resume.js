@@ -16,7 +16,7 @@ class Resume extends Component {
                 </h1>
                 <div class="subheading mb-5">Excellent intuitive and analytical thinking. Self-motivated and enthusiastic to learn new skills.
                 </div>
-                <p class="mb-5" style={{maxWidth: '500px'}} > I am a 22 year old female, have an excellent health, high motivation, good computer skill, creative, high loyalty and integrity. I am a fast learner and ready to work hard. Able to work in individual and in team.</p>
+                <p class="mb-5" style={{maxWidth: '500px'}} > I am a 22-year-old female, have an excellent health, high motivation, creative, high loyalty and integrity. A fast learner, ready to work hard and able to work independently or as part of a team.</p>
                 <ul class="list-inline list-social-icons mb-0">
                     <li class="list-inline-item">
                         <a href="mailto:lulukarissa@gmail.com" target="_blank" rel="noopener noreferrer">
@@ -61,7 +61,7 @@ class Resume extends Component {
         <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="awards">
             <div class="row my-auto">
                 <div class="col-12">
-                  <h2 class="  text-center">Education and Training</h2>
+                  <h2 class="  text-center">Education</h2>
                   <div class="mb-5 heading-border"></div>
                 
                 <div class="main-award" id="award-box">
@@ -123,10 +123,12 @@ class Resume extends Component {
                 <div class="resume-item col-md-12 col-sm-12">
                   <div class="card mx-0 p-4 mb-5" style={{borderColor: '#ffc107', boxShadow: '2px 2px 2px rgba(0, 0, 0, 0.21)'}}>
                     <div class="resume-content mr-auto">
-                        <h4 class="mb-3"><i class="fa fa-laptop mr-3 text-warning"></i> PT Yodya Karya (PERSERO) </h4>
+                        <h4 class="mb-3"><i class="fa fa-laptop mr-3 text-warning"></i> PT Yodya Karya (PERSERO) Pekanbaru</h4>
                         <p>
-                        Internship in PT Yodya Karya (PERSERO) Pekanbaru. Job description: Assisting in company data for tender process, drawing sketch of 2-floor house remodeling plans, learning and observing the implementation of the construction management from existing project
+                        PT Yodya Karya (PERSERO) is Indonesian state-owned enterprises company where focused on Professional, Science and Technical Services sector.
                         </p>
+                        <b>Position: Intern</b>
+                        <p>Assisting in company data for tender process, drawing sketch of 2-floor house remodeling plans, learning and observing the implementation of the construction management from existing project</p>
                     </div>
                     <div class="resume-date text-md-right">
                         <span class="text-primary">January 2016 - March 2016</span>
@@ -339,7 +341,7 @@ class Resume extends Component {
                         <img class="img-fluid" src="img/portfolio/p-16.jpg" alt=""/>
                     </a>
                 </div> 
-                <div class="col-sm-4 portfolio-item filter mobile">
+                <div class="col-sm-4 portfolio-item filter fundamental">
                     <a class="portfolio-link" href="#portfolioModal17" data-toggle="modal">
                         <div class="caption-port">
                             <div class="caption-port-content">
@@ -349,7 +351,7 @@ class Resume extends Component {
                         <img class="img-fluid" src="img/portfolio/p-17.jpg" alt=""/>
                     </a>
                 </div> 
-                <div class="col-sm-4 portfolio-item filter mobile">
+                <div class="col-sm-4 portfolio-item filter fundamental">
                     <a class="portfolio-link" href="#portfolioModal18" data-toggle="modal">
                         <div class="caption-port">
                             <div class="caption-port-content">
@@ -502,6 +504,9 @@ class Resume extends Component {
                                             </a>
                                         </li>
                                     </ul>
+                                    <button class="btn btn-general btn-white" type="button" data-dismiss="modal">
+                                      <i class="fa fa-times"></i> Close
+                                  </button>
                                 </div>
                               </div>
                             </div>
@@ -547,6 +552,9 @@ class Resume extends Component {
                                             </a>
                                         </li>
                                     </ul>
+                                    <button class="btn btn-general btn-white" type="button" data-dismiss="modal">
+                                      <i class="fa fa-times"></i> Close
+                                  </button>
                                 </div>
                               </div>
                             </div>
@@ -591,6 +599,9 @@ class Resume extends Component {
                                             </a>
                                         </li>
                                     </ul>
+                                    <button class="btn btn-general btn-white" type="button" data-dismiss="modal">
+                                      <i class="fa fa-times"></i> Close
+                                    </button>
                                 </div>
                               </div>
                             </div>
@@ -636,6 +647,9 @@ class Resume extends Component {
                                             </a>
                                         </li>
                                     </ul>
+                                    <button class="btn btn-general btn-white" type="button" data-dismiss="modal">
+                                      <i class="fa fa-times"></i> Close
+                                    </button>
                                 </div>
                               </div>
                             </div>
@@ -681,6 +695,9 @@ class Resume extends Component {
                                             </a>
                                         </li>
                                     </ul>
+                                    <button class="btn btn-general btn-white" type="button" data-dismiss="modal">
+                                      <i class="fa fa-times"></i> Close
+                                    </button>
                                 </div>
                               </div>
                             </div>
@@ -721,12 +738,14 @@ class Resume extends Component {
                                                 <i class="fa fa-github fa-3x"></i>
                                             </a>
                                             <span>  </span>
-                                            {/* Jangan lupa diisi!! */}
-                                            <a href="#" target="_blank" rel="noopener noreferrer">
+                                            <a href="https://react-weather-lulukarissa.netlify.com/" target="_blank" rel="noopener noreferrer">
                                                 <i class="fas fa-globe-americas fa-3x"></i>
                                             </a>
                                         </li>
                                     </ul>
+                                    <button class="btn btn-general btn-white" type="button" data-dismiss="modal">
+                                      <i class="fa fa-times"></i> Close
+                                    </button>
                                 </div>
                               </div>
                             </div>
@@ -768,6 +787,9 @@ class Resume extends Component {
                                             </a>
                                         </li>
                                     </ul>
+                                    <button class="btn btn-general btn-white" type="button" data-dismiss="modal">
+                                      <i class="fa fa-times"></i> Close
+                                    </button>
                                 </div>
                               </div>
                             </div>
@@ -809,6 +831,9 @@ class Resume extends Component {
                                             </a>
                                         </li>
                                     </ul>
+                                    <button class="btn btn-general btn-white" type="button" data-dismiss="modal">
+                                      <i class="fa fa-times"></i> Close
+                                    </button>
                                 </div>
                               </div>
                             </div>
@@ -850,6 +875,9 @@ class Resume extends Component {
                                             </a>
                                         </li>
                                     </ul>
+                                    <button class="btn btn-general btn-white" type="button" data-dismiss="modal">
+                                      <i class="fa fa-times"></i> Close
+                                    </button>
                                 </div>
                               </div>
                             </div>
@@ -891,6 +919,9 @@ class Resume extends Component {
                                             </a>
                                         </li>
                                     </ul>
+                                    <button class="btn btn-general btn-white" type="button" data-dismiss="modal">
+                                      <i class="fa fa-times"></i> Close
+                                    </button>
                                 </div>
                               </div>
                             </div>
@@ -932,6 +963,9 @@ class Resume extends Component {
                                             </a>
                                         </li>
                                     </ul>
+                                    <button class="btn btn-general btn-white" type="button" data-dismiss="modal">
+                                      <i class="fa fa-times"></i> Close
+                                    </button>
                                 </div>
                               </div>
                             </div>
@@ -973,6 +1007,9 @@ class Resume extends Component {
                                             </a>
                                         </li>
                                     </ul>
+                                    <button class="btn btn-general btn-white" type="button" data-dismiss="modal">
+                                      <i class="fa fa-times"></i> Close
+                                    </button>
                                 </div>
                               </div>
                             </div>
@@ -1014,6 +1051,9 @@ class Resume extends Component {
                                             </a>
                                         </li>
                                     </ul>
+                                    <button class="btn btn-general btn-white" type="button" data-dismiss="modal">
+                                      <i class="fa fa-times"></i> Close
+                                    </button>
                                 </div>
                               </div>
                             </div>
@@ -1055,6 +1095,9 @@ class Resume extends Component {
                                             </a>
                                         </li>
                                     </ul>
+                                    <button class="btn btn-general btn-white" type="button" data-dismiss="modal">
+                                      <i class="fa fa-times"></i> Close
+                                    </button>
                                 </div>
                               </div>
                             </div>
@@ -1096,6 +1139,9 @@ class Resume extends Component {
                                             </a>
                                         </li>
                                     </ul>
+                                    <button class="btn btn-general btn-white" type="button" data-dismiss="modal">
+                                      <i class="fa fa-times"></i> Close
+                                    </button>
                                 </div>
                               </div>
                             </div>
@@ -1104,6 +1150,138 @@ class Resume extends Component {
             </div>
         </div>
       </div>  
+
+      <div class="portfolio-modal modal fade" id="portfolioModal16" tabindex="-1" role="dialog" aria-hidden="true" >
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="close-modal" data-dismiss="modal">
+                    <div class="lr">
+                        <div class="rl"></div>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="row">
+                            <div class="modal-body">
+                                <div class="title-bar">
+                                  <div class="col-md-12">
+                                    <h2 class="text-center">MapBox</h2>
+                                    <div class="heading-border"></div>
+                                  </div>
+                                </div>
+                                <div class="row">
+                                  <div class="col-md-6">
+                                    <img class="img-fluid img-centered" src="img/portfolio/p-16.jpg" alt=""/>
+                                  </div>
+                                  <div class="col-md-6">
+                                    <p>
+                                    This is a simple React Native app using Mapbox 6.1.3 to show the accurate location.
+                                    </p>
+                                    <ul class="list-inline item-details">
+                                        <li>
+                                            <a href="https://github.com/lulukarissa/ReactNative_MapBox" target="_blank" rel="noopener noreferrer">
+                                                <i class="fa fa-github fa-3x"></i>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                    <button class="btn btn-general btn-white" type="button" data-dismiss="modal">
+                                      <i class="fa fa-times"></i> Close
+                                    </button>
+                                </div>
+                              </div>
+                            </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+      </div> 
+
+      <div class="portfolio-modal modal fade" id="portfolioModal17" tabindex="-1" role="dialog" aria-hidden="true" >
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="close-modal" data-dismiss="modal">
+                    <div class="lr">
+                        <div class="rl"></div>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="row">
+                            <div class="modal-body">
+                                <div class="title-bar">
+                                  <div class="col-md-12">
+                                    <h2 class="text-center">World Clock</h2>
+                                    <div class="heading-border"></div>
+                                  </div>
+                                </div>
+                                <div class="row">
+                                  <div class="col-md-6">
+                                    <img class="img-fluid img-centered" src="img/portfolio/p-17.jpg" alt=""/>
+                                  </div>
+                                  <div class="col-md-6">
+                                    <p>
+                                    A basic HTML using set interval function of JavaScript to show the world clock.
+                                    </p>
+                                    <ul class="list-inline item-details">
+                                        <li>
+                                            <a href="https://github.com/lulukarissa/Fundamental_WorldClock" target="_blank" rel="noopener noreferrer">
+                                                <i class="fa fa-github fa-3x"></i>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                    <button class="btn btn-general btn-white" type="button" data-dismiss="modal">
+                                      <i class="fa fa-times"></i> Close
+                                    </button>
+                                </div>
+                              </div>
+                            </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+      </div> 
+
+      <div class="portfolio-modal modal fade" id="portfolioModal18" tabindex="-1" role="dialog" aria-hidden="true" >
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="close-modal" data-dismiss="modal">
+                    <div class="lr">
+                        <div class="rl"></div>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="row">
+                            <div class="modal-body">
+                                <div class="title-bar">
+                                  <div class="col-md-12">
+                                    <h2 class="text-center">Simple Matrix 3x3</h2>
+                                    <div class="heading-border"></div>
+                                  </div>
+                                </div>
+                                <div class="row">
+                                  <div class="col-md-6">
+                                    <img class="img-fluid img-centered" src="img/portfolio/p-18.jpg" alt=""/>
+                                  </div>
+                                  <div class="col-md-6">
+                                    <p>
+                                    A simple matrix 3x3 for fundamental exam practice.
+                                    </p>
+                                    <ul class="list-inline item-details">
+                                        <li>
+                                            <a href="https://github.com/lulukarissa/Fundamental_SimpleMatrix3x3" target="_blank" rel="noopener noreferrer">
+                                                <i class="fa fa-github fa-3x"></i>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                    <button class="btn btn-general btn-white" type="button" data-dismiss="modal">
+                                      <i class="fa fa-times"></i> Close
+                                    </button>
+                                </div>
+                              </div>
+                            </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+      </div> 
 
      </div>
     );
